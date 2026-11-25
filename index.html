@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073b67">
+  <meta name="description" content="Atendimento odontológico para adultos e crianças, implantes e próteses. Agende sua avaliação.">
+  <meta property="og:title" content="Odontologia | Dra. Ana Carolina Maciel">
+  <meta property="og:description" content="Cuidando do seu sorriso em todas as fases da vida.">
+  <title>Odontologia | Dra. Ana Carolina Maciel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="topline"><div class="container topline-inner"><span>Odontologia com cuidado em todas as fases da vida</span><a id="topPhone" href="tel:+554136672313">41 3667-2313</a></div></div>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Página inicial"><img id="brandLogo" src="logo-odontologia.png" alt="Odontologia - Dra. Ana Carolina Maciel"></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre a Dra.</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a>
+        <a class="btn btn-whatsapp nav-cta" id="navWhatsapp" href="#" target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle"></i> Agendar pelo WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="publicSite">
+    <section class="hero section-anchor" id="inicio">
+      <div class="hero-bg" id="heroBackground"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-line"></span> Cuidado odontológico humanizado</span>
+          <h1 id="heroTitle">Cuidando do seu sorriso em todas as fases da vida!</h1>
+          <p id="heroText">Clínica geral, atendimento para adultos e crianças, implantes e próteses.</p>
+          <div class="hero-actions"><a class="btn btn-primary" id="heroButton" href="#" target="_blank" rel="noopener noreferrer">Agendar atendimento <i data-lucide="arrow-up-right"></i></a><a class="btn btn-outline" href="#servicos">Conheça os serviços</a></div>
+          <div class="hero-note"><i data-lucide="shield-check"></i><span>Atendimento atencioso e personalizado</span></div>
+        </div>
+        <div class="hero-stamp reveal"><span class="stamp-icon"><i data-lucide="heart-handshake"></i></span><span>Seu sorriso<br><strong>em boas mãos</strong></span></div>
+      </div>
+      <div class="hero-wave"></div>
+    </section>
+
+    <section class="quick-services section-anchor" id="servicos">
+      <div class="container service-grid" id="servicesGrid"></div>
+    </section>
+
+    <section class="section about-section section-anchor" id="sobre">
+      <div class="container about-grid">
+        <div class="about-photo reveal"><img id="doctorPhoto" src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=85" alt="Profissional de saúde"></div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">Conheça a profissional</span>
+          <h2 id="doctorName">Dra. Ana Carolina Maciel</h2>
+          <p class="doctor-cro" id="doctorCro">CRO-PR 32.244</p>
+          <p id="doctorBio">Um atendimento acolhedor, com atenção às necessidades de cada paciente e cuidado em todas as etapas do tratamento.</p>
+          <a class="text-link" href="#contato">Entre em contato <i data-lucide="arrow-right"></i></a>
+        </div>
+        <div class="why-card reveal">
+          <span class="eyebrow">Nosso compromisso</span><h3>Por que escolher nossa clínica?</h3>
+          <ul id="benefitsList"><li><i data-lucide="check-circle-2"></i> Atendimento personalizado</li><li><i data-lucide="check-circle-2"></i> Atenção para adultos e crianças</li><li><i data-lucide="check-circle-2"></i> Avaliação individualizada</li><li><i data-lucide="check-circle-2"></i> Cuidado e orientação em cada etapa</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner"><div class="cta-symbol"><i data-lucide="smile"></i></div><div><h2>Está na hora de cuidar do seu sorriso?</h2><p>Fale com nossa equipe e consulte os horários disponíveis.</p></div><a class="btn btn-whatsapp" id="bandWhatsapp" href="#" target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle"></i> Falar pelo WhatsApp</a></div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="container"><div class="section-heading reveal"><span class="eyebrow">Nosso espaço</span><h2>Um ambiente preparado para receber você</h2><p>Conheça um pouco do cuidado e da estrutura da clínica.</p></div><div class="gallery-grid" id="galleryGrid"></div></div>
+    </section>
+
+    <section class="section products-section is-hidden" id="productsSection">
+      <div class="container"><div class="section-heading"><span class="eyebrow">Nossa seleção</span><h2 id="productsTitle">Produtos e recomendações</h2><p id="productsDescription">Confira produtos selecionados e links úteis.</p></div><div class="products-grid" id="productsGrid"></div></div>
+    </section>
+
+    <section class="section location-section section-anchor" id="localizacao">
+      <div class="container location-grid">
+        <div class="location-copy"><span class="eyebrow">Estamos perto de você</span><h2>Encontre nossa clínica</h2><p id="clinicAddress">Endereço a confirmar com a clínica.</p><div class="contact-line"><i data-lucide="phone"></i><div><small>Telefone</small><strong id="contactPhone">41 3667-2313</strong></div></div><div class="contact-line"><i data-lucide="clock-3"></i><div><small>Horário de atendimento</small><strong id="openingHours">Consulte os horários pelo WhatsApp</strong></div></div><a class="text-link" id="mapsLink" href="#" target="_blank" rel="noopener noreferrer">Abrir no Google Maps <i data-lucide="arrow-up-right"></i></a></div>
+        <div class="map-frame" id="mapFrame"><div class="map-placeholder"><i data-lucide="map-pin"></i><strong>Localização da clínica</strong><span>Adicione o endereço ou link do mapa no painel administrativo.</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-anchor" id="contato"><div class="container contact-card"><div><span class="eyebrow">Vamos conversar?</span><h2>Seu próximo passo começa com uma conversa.</h2><p>Entre em contato para tirar dúvidas e consultar disponibilidade.</p></div><a class="btn btn-whatsapp" id="contactWhatsapp" href="#" target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle"></i> Agendar pelo WhatsApp</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><img id="footerLogo" src="logo-odontologia.png" alt="Odontologia"><p>Cuidado, atenção e compromisso com a saúde do seu sorriso.</p></div><div><h3>Navegação</h3><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre a Dra.</a><a href="#localizacao">Localização</a></div><div><h3>Contato</h3><p id="footerPhone">41 3667-2313</p><p id="footerCro">CRO-PR 32.244</p><div class="social-links" id="socialLinks"></div></div></div><div class="footer-bottom"><div class="container"><span>© <span id="year"></span> Odontologia. Todos os direitos reservados.</span><span>Informações sujeitas à confirmação pela clínica.</span></div></div></footer>
+  <a class="floating-whatsapp" id="floatingWhatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp"><i data-lucide="message-circle"></i></a>
+  <script src="config.js"></script><script src="database.js"></script><script src="sections.js"></script><script src="themes.js"></script><script src="media.js"></script><script src="main.js"></script>
+</body>
+</html>
